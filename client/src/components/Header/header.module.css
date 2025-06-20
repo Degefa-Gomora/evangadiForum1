@@ -1,0 +1,142 @@
+/* Classic header styles for Evangadi Forum */
+
+.navbar_custom {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background-color: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  margin: auto;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.navbar_collapse_custom {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav_links_holder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: auto;
+}
+
+.navigation_links {
+  font-size: 18px;
+  color: #222;
+  padding: 8px 12px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out;
+  white-space: nowrap;
+}
+
+.navigation_links:hover {
+  color: #516cf0;
+}
+
+.login_btn {
+  padding: 10px 20px;
+  color: white;
+  background-color: #516cf0;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+.login_btn:hover {
+  background-color: #7186ef;
+}
+
+.logout_btn {
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #dc3545;
+  border-radius: 4px;
+  margin-left: 10px;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.logout_btn:hover {
+  background-color: #b52a37;
+}
+
+.profile_icon_link {
+  margin-left: 10px;
+  color: #516cf0;
+  font-size: 1.7rem;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.profile_icon_link:hover {
+  color: #7186ef;
+}
+
+.profile_picture_placeholder {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #516cf0, #7186ef);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.icon_space {
+  margin-right: 5px;
+}
+
+@media (max-width: 767px) {
+  .nav_links_holder {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+  }
+  .logout_btn {
+    width: auto;
+    margin-left: 0;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .profile_icon_link {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .navigation_links {
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .header_container {
+    width: 95%;
+  }
+  .navbar_custom {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}

@@ -1,0 +1,169 @@
+/* Classic footer styles for Evangadi Forum */
+
+.footer {
+  background-color: #3b455a;
+  color: #fff;
+  justify-content: center;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2.5rem;
+  border-top: 1px solid #222;
+}
+.footer h5, .footer h4 {
+  color: #fff;
+}
+.footer_icons {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  color: #fff;
+  cursor: pointer;
+}
+.footer_icons a:hover {
+  transform: scale(1.09);
+  color: #fe8402;
+}
+.footer_icons a {
+  color: #fff;
+  justify-content: space-between;
+  margin: 0 15px;
+  font-size: 35px;
+  max-width: 10rem;
+}
+.footer_contacts li {
+  list-style: none;
+  color: #e0e0e0;
+  margin: 0.2rem;
+  padding: 0.2rem;
+  font-size: 1rem;
+}
+.footer_links li {
+  list-style: none;
+  color: #e0e0e0;
+  margin: 0.2rem;
+  padding: 0.2rem;
+  font-size: 1rem;
+}
+.footer_ul {
+  padding: 0;
+}
+.footer_ul a {
+  display: flex;
+  flex-direction: column;
+  color: #e0e0e0;
+  text-decoration: none;
+}
+.footer_ul a:hover {
+  color: #fe8402 !important;
+}
+.footer_logo img {
+  padding: 10px;
+  max-width: 50rem;
+}
+.privacy:hover {
+  transform: scale(1.09);
+  color: #fe8402 !important;
+}
+.linkBar:hover {
+  transform: scale(1.09);
+  color: #fe8402 !important;
+}
+.footer_contacts ul {
+  padding: 0 !important;
+  margin-left: 0 !important;
+}
+.linkBar {
+  text-decoration: none;
+  color: #e0e0e0 !important;
+}
+.footer_ul Link {
+  text-decoration: none;
+  color: #e0e0e0 !important;
+}
+.linkBar a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 5rem;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+  }
+  .footer_contacts {
+    margin-left: 2rem !important;
+  }
+  .footer_links h4 {
+    align-items: flex-start;
+  }
+  .footer_icons {
+    width: 100%;
+    justify-content: center;
+    margin: 15px 0;
+  }
+  .footer_icons a {
+    font-size: 30px;
+    margin: 0 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer {
+    padding-left: 2rem;
+    padding-top: 2rem;
+  }
+  .footer_contacts {
+    margin-left: 1rem !important;
+  }
+  .footer_icons a {
+    font-size: 25px;
+    margin: 0 8px;
+  }
+  .footer_logo img {
+    max-width: 30rem;
+  }
+}
+
+/* Terms and privacy css */
+
+.termsHeader {
+  background-image: url("../../Assets/Images/bg-transparent6.png"); 
+  background-size: cover;  
+  background-repeat: no-repeat; 
+  background-position: center; 
+  text-align: center; 
+  padding: 4rem;
+}
+.terms{
+    color: var(--text-color);
+    margin: 6rem;
+    font-size: 1.17rem;
+}
+.termsPara{
+    margin-top: 5rem;
+}
+.terms h5{
+    font-weight: bold;
+}
+.terms h2{
+    font-weight: bold;
+    color: var(--text-color);
+}
+.terms p{ 
+    padding: 5px;
+}
+.footer_contacts h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.footer h2, .footer h4, .footer h5 {
+  color: #fff;
+}
