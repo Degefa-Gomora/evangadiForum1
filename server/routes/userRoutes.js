@@ -1,4 +1,3 @@
-// userRoute.jsx
 const express = require("express");
 const router = express.Router();
 
@@ -12,7 +11,7 @@ const {
   forgotPassword,
   resetPassword,
   verifyEmail, // ADDED: Import the new verifyEmail function
-} = require("../controller/userController.js");
+} = require("../controller/usercontroller.js");
 
 const authMiddleware = require("../middleware/authMiddleware.js");
 
